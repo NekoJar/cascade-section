@@ -53,7 +53,7 @@ export default function Home() {
         className="flex flex-col justify-center items-center text-white h-screen"
         ref={heroContainer}
       >
-        <motion.div style={{ opacity: heroOpacity }}>
+        <motion.div style={{ opacity: heroOpacity }} className="fixed">
           <p className="italic text-xs pr-36 sm:text-base sm:pr-[22rem]">
             welcome
           </p>
